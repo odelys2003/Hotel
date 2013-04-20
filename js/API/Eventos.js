@@ -12,7 +12,7 @@ $(document).ready(function() {
 				
 					//para llamar a la ventana de confirmacióm
 				navigator.notification.confirm("Nombre: "+ nom + "\n Email: " + email + " \n Telefono: " + tel,function(botones){
-					switch(botones){
+					switch(botones){ //opciones de boton
 						case 1:
 						navigator.notification.beep(5);
 						break;
